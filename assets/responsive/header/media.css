@@ -1,0 +1,50 @@
+@media (max-width:720px){
+    label{
+        display: block;
+    }    
+    nav .contianer .logo{
+        padding: 0 50px;
+    }
+    nav .contianer ul{
+        /* border: 1px solid black; */
+        position: absolute;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        right: 0;
+        bottom: -123px;
+        margin: 0 10px;
+        display: none;
+    }
+    nav .contianer ul li{
+        list-style: none;
+        margin: 0 5px;
+        padding: 6px 0;
+        border-radius: 4px;
+        font-size: 0.8em;
+    }
+    nav .contianer ul li:hover{
+        scale: 1.4;
+    }
+    #checkbox:checked ~ ul{
+        display: block;
+    }
+}
+
+@media (max-width:720px){
+    nav .contianer .logo{
+        padding: 0 30px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:320px){
+    nav .contianer .logo{
+        padding: 0 10px;
+        font-size: 0.8em;
+    }
+    label{
+        font-size: 0.8em;
+        right: 20px;
+    }
+}
