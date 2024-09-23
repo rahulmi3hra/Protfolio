@@ -1,0 +1,84 @@
+@media (max-width:1060px){
+    .profession h1{
+        font-size: 7em;
+        line-height: 120px;
+    }
+}
+
+@media (max-width:800px){
+    main{
+        flex-direction: column;
+    }
+    .sidebar{
+        flex-direction: row;
+        width: 100%;
+    }
+    .sidebar .box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        padding: 30px 0;
+    }
+    .box .title{
+        writing-mode: horizontal-tb;
+        font-size: 1.8em;
+        letter-spacing: 1px;
+    }
+    .box .value{
+        font-size: 1.8em;
+    }
+    .profession h1{
+        font-size: 7em;
+        line-height: 120px;
+    }
+    .line{
+        border: none;
+        border-inline: 2px solid rgba(0, 0, 0, 0.158);
+    }
+}
+
+@media (max-width:640px){
+    .sidebar{
+        flex-direction: column;
+    }
+    .box .title{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .profession h1{
+        font-size: 5em;
+        line-height: 80px;
+    }
+    .line{
+        border: none;
+        border-block: 2px solid rgba(0, 0, 0, 0.158);
+    }
+}
+
+@media (max-width:460px){
+    .sidebar{
+        flex-direction: column;
+    }
+    .box .title{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .profession h1{
+        font-size: 3em;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:270px){
+    .sidebar{
+        flex-direction: column;
+    }
+    .box .title{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .profession .developer{
+        font-size: 2.4em;
+    }
+}
